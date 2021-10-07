@@ -1,6 +1,6 @@
 using System;
 
-namespace api_mssql_dapper.Models
+namespace api_mssql_dapper.DTOs
 {
     public class UserDTO_get
     {

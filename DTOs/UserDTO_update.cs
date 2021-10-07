@@ -1,6 +1,6 @@
 using System;
 
-namespace api_mssql_dapper
+namespace api_mssql_dapper.DTOs
 {
     public class UserDTO_update
     {
