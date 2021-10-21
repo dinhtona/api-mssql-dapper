@@ -285,6 +285,7 @@ begin
     DECLARE @result varchar(max) = ''
 
     SET @result = @result + 'using System;' + CHAR(13)
+    SET @result = @result + 'using System.ComponentModel.DataAnnotations.Schema;' + char(13)
     SET @result = @result + 'using System.ComponentModel.DataAnnotations;' + CHAR(13) + CHAR(13) 
 
     IF (@TableSchema IS NOT NULL) 
